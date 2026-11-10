@@ -1,0 +1,11 @@
+{
+  "phases": [
+    "base",
+    "popup-on-generate",
+    "wrong-file"
+  ],
+  "progress": "在导出中心点击刷新任务推进来源完成状态，正常界面操作可轮询",
+  "storage": "任务保存在当前origin的localStorage",
+  "wrong-file": "下载文件首行job_id不匹配",
+  "filter_digest": "本地协议以页面规范化账期|供应商组|币种串表示筛选摘要"
+}
