@@ -1,0 +1,11 @@
+{
+  "description": "异常核对场景：门户切到 wrong-file 阶段后，下载首行 job_id 为 J-OLD，应被隔离",
+  "requests": [
+    {
+      "request_id": "BAD-001",
+      "period": "2026-07",
+      "vendor": "south",
+      "currency": "CNY"
+    }
+  ]
+}

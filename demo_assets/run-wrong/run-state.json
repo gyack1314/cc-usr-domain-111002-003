@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "saved_at": "2026-11-11T23:44:35",
+  "requests": [
+    {
+      "request_id": "BAD-001",
+      "filter_digest": "2026-07|south|CNY",
+      "page_summary": "2026-07|south|CNY",
+      "job_id": "J-2",
+      "owner": "demo-user",
+      "status": "quarantined",
+      "center_open_mode": "center-button",
+      "output_file": null,
+      "quarantine_file": "/workspace/demo_assets/run-wrong/quarantine/staging-J-2-2604622ab4.8f0f1a3dece4.csv",
+      "quarantine_reason": "job_id 不符: 文件='J-OLD' 期望='J-2'",
+      "detail": null,
+      "events": [
+        "01. 生成动作取得页面可见任务编号 J-2",
+        "02. 导出中心就绪（打开方式: center-button）",
+        "03. 三属性匹配通过: 编号=J-2 创建者=demo-user 摘要=2026-07|south|CNY 状态=排队",
+        "04. 轮询结束，门户状态=完成",
+        "05. 浏览器下载事件落盘暂存: staging-J-2-2604622ab4.csv",
+        "06. 元数据核对不符，已隔离: job_id 不符: 文件='J-OLD' 期望='J-2'"
+      ],
+      "status_label_zh": "元数据不符已隔离"
+    }
+  ]
+}

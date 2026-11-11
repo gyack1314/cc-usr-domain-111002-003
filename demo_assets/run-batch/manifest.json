@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "portal": "http://127.0.0.1:8090",
+  "generated_at": "2026-11-11T23:44:23",
+  "columns": [
+    "request_id",
+    "input_filter_digest",
+    "portal_job_id",
+    "owner",
+    "center_open_mode",
+    "status",
+    "status_label_zh",
+    "output_file",
+    "quarantine_file",
+    "quarantine_reason",
+    "detail"
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-001",
+      "filter_digest": "2026-10|north|CNY",
+      "page_summary": "2026-10|north|CNY",
+      "job_id": "J-2",
+      "owner": "demo-user",
+      "status": "completed",
+      "center_open_mode": "center-button",
+      "output_file": "/workspace/demo_assets/run-batch/output/REQ-001__J-2.csv",
+      "quarantine_file": null,
+      "quarantine_reason": null,
+      "detail": null,
+      "events": [
+        "01. 生成动作取得页面可见任务编号 J-2",
+        "02. 导出中心就绪（打开方式: center-button）",
+        "03. 三属性匹配通过: 编号=J-2 创建者=demo-user 摘要=2026-10|north|CNY 状态=排队",
+        "04. 轮询结束，门户状态=完成",
+        "05. 浏览器下载事件落盘暂存: staging-J-2-3bdcd78f03.csv",
+        "06. 元数据核对通过（job_id/filter_digest/schema_version 均相符）: REQ-001__J-2.csv",
+        "07. 恢复运行：该项已有终态，跳过"
+      ],
+      "status_label_zh": "完成并校验通过"
+    },
+    {
+      "request_id": "REQ-002",
+      "filter_digest": "2026-09|south|USD",
+      "page_summary": "2026-09|south|USD",
+      "job_id": "J-3",
+      "owner": "demo-user",
+      "status": "completed",
+      "center_open_mode": "reused",
+      "output_file": "/workspace/demo_assets/run-batch/output/REQ-002__J-3.csv",
+      "quarantine_file": null,
+      "quarantine_reason": null,
+      "detail": null,
+      "events": [
+        "01. 生成动作取得页面可见任务编号 J-3",
+        "02. 导出中心就绪（打开方式: reused）",
+        "03. 三属性匹配通过: 编号=J-3 创建者=demo-user 摘要=2026-09|south|USD 状态=排队",
+        "04. 轮询结束，门户状态=完成",
+        "05. 浏览器下载事件落盘暂存: staging-J-3-e0599c1a5a.csv",
+        "06. 元数据核对通过（job_id/filter_digest/schema_version 均相符）: REQ-002__J-3.csv",
+        "07. 恢复运行：该项已有终态，跳过"
+      ],
+      "status_label_zh": "完成并校验通过"
+    },
+    {
+      "request_id": "REQ-003",
+      "filter_digest": "2026-08|north|USD",
+      "page_summary": "2026-08|north|USD",
+      "job_id": "J-4",
+      "owner": "demo-user",
+      "status": "completed",
+      "center_open_mode": "reused",
+      "output_file": "/workspace/demo_assets/run-batch/output/REQ-003__J-4.csv",
+      "quarantine_file": null,
+      "quarantine_reason": null,
+      "detail": null,
+      "events": [
+        "01. 生成动作取得页面可见任务编号 J-4",
+        "02. 导出中心就绪（打开方式: reused）",
+        "03. 三属性匹配通过: 编号=J-4 创建者=demo-user 摘要=2026-08|north|USD 状态=排队",
+        "04. 轮询结束，门户状态=完成",
+        "05. 浏览器下载事件落盘暂存: staging-J-4-30c8b4b804.csv",
+        "06. 元数据核对通过（job_id/filter_digest/schema_version 均相符）: REQ-003__J-4.csv",
+        "07. 恢复运行：该项已有终态，跳过"
+      ],
+      "status_label_zh": "完成并校验通过"
+    }
+  ]
+}

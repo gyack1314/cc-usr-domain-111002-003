@@ -1,0 +1,32 @@
+{
+  "requests": [
+    {
+      "request_id": "DEMO-A",
+      "input_filter_digest": "2026-10|north|CNY",
+      "portal_job_id": "J-2",
+      "owner": "demo-user",
+      "matched_by": "任务编号+创建者+筛选摘要",
+      "final_file": "/workspace/demo_assets/demo-output/DEMO-A__J-2.csv",
+      "verified_metadata": {
+        "job_id": "J-2",
+        "filter_digest": "2026-10|north|CNY",
+        "schema_version": 1
+      },
+      "verdict": "通过：job_id/filter_digest/schema_version 全部相符"
+    },
+    {
+      "request_id": "DEMO-B",
+      "input_filter_digest": "2026-09|south|USD",
+      "portal_job_id": "J-3",
+      "owner": "demo-user",
+      "matched_by": "任务编号+创建者+筛选摘要",
+      "final_file": "/workspace/demo_assets/demo-output/DEMO-B__J-3.csv",
+      "verified_metadata": {
+        "job_id": "J-3",
+        "filter_digest": "2026-09|south|USD",
+        "schema_version": 1
+      },
+      "verdict": "通过：job_id/filter_digest/schema_version 全部相符"
+    }
+  ]
+}

@@ -13,3 +13,7 @@ __pycache__/
 state/
 outputs/
 playwright-report/
+# 导出自动化运行产物（保留 examples/ 输入与 demo_assets 截图证据）
+demo_assets/*/
+demo_assets/demo-output/
+run-*/

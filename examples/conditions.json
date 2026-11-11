@@ -1,0 +1,23 @@
+{
+  "description": "已确认的结算门户筛选条件（合成环境，不连接真实财务系统）",
+  "requests": [
+    {
+      "request_id": "REQ-001",
+      "period": "2026-10",
+      "vendor": "north",
+      "currency": "CNY"
+    },
+    {
+      "request_id": "REQ-002",
+      "period": "2026-09",
+      "vendor": "south",
+      "currency": "USD"
+    },
+    {
+      "request_id": "REQ-003",
+      "period": "2026-08",
+      "vendor": "north",
+      "currency": "USD"
+    }
+  ]
+}
